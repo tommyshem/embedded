@@ -1,0 +1,29 @@
+Mac need below installed
+
+brew install cmake ninja dfu-util
+
+Optinal for cached builds
+brew install ccache
+
+need python3 installed
+
+clone the framework
+git clone -b v5.3 --recursive https://github.com/espressif/esp-idf.git
+
+setup the tools path you want to install the tools into. Skip this step for default location ~/.expressif
+
+export IDF_TOOLS_PATH="/Volumes/MacData/programming/embedded/esp32/esp/tool-chain-esp32"
+./install.sh
+
+. ./export.sh
+
+
+#Change the directory to where you have installed the framework
+
+install the esp32 tools
+cd ~/esp/esp-idf
+./install.sh esp32
+
+install all the esp32 modules
+cd ~/esp/esp-idf
+./install.sh all
