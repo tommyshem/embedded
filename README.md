@@ -1,2 +1,5 @@
 # embedded
-embedded chips projets
+
+learning embedded chips 
+Simple projets
+Notes
