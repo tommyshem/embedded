@@ -51,4 +51,4 @@ Module.symvers
 Mkfile.old
 dkms.conf
 # ESP Tools and framework
-esp32/esp/tool-chain-esp32/*
+esp32/esp/*
