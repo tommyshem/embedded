@@ -1,0 +1,16 @@
+to create a new go project
+
+go mod init graphic-lcd
+
+get the driver with the golang toolchain
+
+go get tinygo.org/x/drivers/st7789
+
+Run to use tinygo driver correctly 
+
+go mod tidy
+
+
+build for pico
+
+tinygo build --target=pico
