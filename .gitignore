@@ -50,5 +50,15 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
 # ESP Tools and framework
 esp32/esp/*
+esp32/developer-portal/
+esp32/vscode-esp-idf-extension/
+
+# mac os files
+*.DS_Store*
+
+# Pico toolkit and framework
+pico-rp2040/pico-sdk/
+pico-rp2040/pico-tools/
