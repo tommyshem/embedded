@@ -58,6 +58,8 @@ esp32/vscode-esp-idf-extension/
 
 # mac os files
 *.DS_Store*
+*._*
+_*.
 
 # Pico toolkit and framework
 pico-rp2040/pico-sdk/
